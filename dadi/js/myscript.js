@@ -4,8 +4,10 @@
 let utente = Math.floor(Math.random()*5+1);
 let computer = Math.floor(Math.random()*5+1);
 
-if(utente > pc){
-    document.writeln('utente vincitore');
+if(utente > computer){
+    console.log('utente vincitore');
+}else if(utente == computer){
+    console.log('pareggio');
 }else{
-    document.writeln('pc vincitore');
+    console.log('computer vincitore');
 }
